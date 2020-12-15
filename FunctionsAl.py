@@ -15,7 +15,7 @@ def PrSpeak(audio):
         for char in audio:
             sys.stdout.write(char)
             sys.stdout.flush()
-            time.sleep(0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+            time.sleep(0.00001)
         print()
         engine.say(audio)
         engine.runAndWait()
